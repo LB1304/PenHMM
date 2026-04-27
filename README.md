@@ -41,4 +41,10 @@ Usage examples for each main function are available in the corresponding help pa
 ?Estimate.HMCovManifest
 ?Select.CV
 ```
-Additional examples of use can be found at [this link](link_provvisorio).
+Additional examples is available in [`inst/examples/PenHMM_examples.R`](inst/examples/PenHMM_examples.R). 
+After installing the package, the example file can also be accessed directly from R using:
+
+```r
+example_file <- system.file("examples", "PenHMM_examples.R", package = "PenHMM")
+source(example_file)
+```
