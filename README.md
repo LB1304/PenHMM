@@ -16,12 +16,6 @@ devtools::install_github("LB1304/PenHMM")
 
 To download the `.tar.gz` file for manual installation, use [this link](https://github.com/LB1304/PenHMM/archive/main.tar.gz).
 
-After downloading the source archive, it can be installed manually with:
-
-```r
-install.packages("path/to/PenHMM-main.tar.gz", repos = NULL, type = "source")
-```
-
 The package requires `Formula`, `LMest` (version 3.2.7 or later), `MASS`, and `stats`. Parallel cross-validation additionally requires `future` and `future.apply`.
 
 ## Main functions
