@@ -32,6 +32,8 @@ Estimates a hidden Markov model with covariates in the measurement model through
 
 Performs cross-validation for model and tuning-parameter selection. The function evaluates candidate values for the number of hidden states and the penalty strength, and selects the preferred combination according to the chosen cross-validation rule. Both sequential and parallel computation are supported.
 
+## Examples
+
 Usage examples for each main function are available in the corresponding help pages. After installing the package, they can be opened in R with:
 
 ```r
@@ -39,3 +41,4 @@ Usage examples for each main function are available in the corresponding help pa
 ?Estimate.HMCovManifest
 ?Select.CV
 ```
+Additional examples of use can be found at [this link](link_provvisorio).
