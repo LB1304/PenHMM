@@ -1,0 +1,18 @@
+Package: PenHMM
+Type: Package
+Title: Penalized Hidden Markov Models with Covariates in the Measurement Model
+Version: 0.1.0
+Authors@R: person(given = "Luca", family = "Brusa", email = "luca.brusa@unimib.it", role = c("aut", "cre"))
+Description: Tools to simulate, estimate, and cross-validate discrete-time hidden Markov models with covariates in the measurement model using a penalized maximum likelihood approach. The penalty regularizes the dispersion of the state-specific support points to address latent-state separation.
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+Depends: R (>= 4.0.0)
+Imports:
+    Formula,
+    LMest,
+    MASS,
+    stats
+Suggests:
+    future,
+    future.apply
