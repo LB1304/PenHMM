@@ -15,7 +15,7 @@ library(PenHMM)
 ## Optional parallel computation for cross-validation. Set use_parallel <- TRUE
 ## and choose the number of workers if you want to run the CV step in parallel.
 use_parallel <- TRUE
-n_workers <- 15
+n_workers <- 5
 
 ## -----------------------------------------------------------------------------
 ## 1. Simulate data
