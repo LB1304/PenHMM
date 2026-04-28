@@ -12,6 +12,7 @@ To install the `PenHMM` package directly from GitHub:
 # install.packages("devtools")
 require(devtools)
 devtools::install_github("LB1304/PenHMM")
+require(PenHMM)
 ```
 
 To download the `.tar.gz` file for manual installation, use [this link](https://github.com/LB1304/PenHMM/archive/main.tar.gz).
